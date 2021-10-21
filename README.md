@@ -1,5 +1,5 @@
 # Ta-Ha
-Code for the official discord bot Ta-Ha
+The official discord bot Ta-Ha || . help
 
 Assalamualaikum This a README for my bot
 
