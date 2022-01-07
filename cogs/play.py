@@ -7,17 +7,6 @@ client = commands.Bot
 class play(commands.Cog):
     def __init__(self, client:commands.Bot):
         self.client = client
-
-    
-    @commands.Cog.listener()
-    async def on_message(self, message):
-        for i in range (len(Salams)):
-            if Salams[i]in message.content:
-                for j in range(1):
-                    await message.channel.send("وَعَلَيْكُمُ ٱلسَّلَامُ وَرَحْمَةُ ٱللَّٰهِ وَبَرَكَاتُهُ")
-
-    
-    
     
     
     @commands.command(aliases = ['p', "pingerino"])
@@ -59,7 +48,7 @@ class play(commands.Cog):
     @commands.command(aliases=['8ball'])
     async def eightball(self, ctx, *, question):
         responses = [
-        'Hell no.',
+        'Lucas says: ***absoluutely not!***',
         'Probably not.',
         'Idk bro.',
         'Probably.',
