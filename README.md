@@ -1,6 +1,6 @@
-# Lucas
+# WMMAP?
 
-An RP discord bot based off the fictional character "Lucas" from the comic "Who Made Me a Princess (어느 날 공주가 되어버렸다, Eoneu nal gongjuga doeeobeolyeossda)"
+An RP discord bot based off the comic "Who Made Me a Princess (어느 날 공주가 되어버렸다, Eoneu nal gongjuga doeeobeolyeossda)"
 
 
 Plans to add:
