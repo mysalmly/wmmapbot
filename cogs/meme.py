@@ -14,13 +14,13 @@ class meme(commands.Cog):
     @commands.command()
     async def meme(self, ctx):
       async with aiohttp.ClientSession() as cs:
-        async with cs.get("https://www.reddit.com/r/IslamicHistoryMeme/.json") as r:
+        async with cs.get("https://www.reddit.com/r/Memes/.json") as r:
           memes = await r.json()
           embed = discord.Embed(
               color = discord.Color.purple()
             )
           embed.set_image(url=memes["data"]["children"][random.randint(0, 25)]["data"]["url"])
-          embed.set_footer(text=f"Powered by r/Islamichistorymeme | Meme requested by {ctx.author}")
+          embed.set_footer(text=f"Powered by r/Memes | Meme requested by {ctx.author}")
           await ctx.send(embed=embed)
 
 
